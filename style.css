@@ -28,6 +28,7 @@ h1{
 	padding: 20px;
 	margin: 15px;
 	text-align: center;
+	box-shadow: 0 3px 10px #a9a8a8;
 }
 .profil img{
 	border-radius: 50%;
@@ -37,14 +38,11 @@ h1{
 	.container{
 		display: flex;
 		flex-wrap: wrap;
-		gap: 20px;
-		width: 50%;
 	}
 	.profil{
-		flex: 1 1 50%;
+		flex: 1 1 calc(50% - 30px);
 		text-align: left;
 		display: flex;
-		margin: 0;
 	}
 	.profil img {
 		margin-right: 15px;
@@ -53,7 +51,6 @@ h1{
 @media screen and (min-width: 960px) {
 	.container{
 		flex-wrap: nowrap;
-		width: 100%;
 	}
 	.profil{
 		flex: 1 1 25%;
