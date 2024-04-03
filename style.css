@@ -55,10 +55,15 @@ h1{
 @media screen and (min-width: 960px) {
 	.container{
 		flex-wrap: nowrap;
+		margin: 15px;
+		gap: 15px;
 	}
 	.profil{
 		flex: 1 1 25%;
 		flex-direction: column;
 		text-align: center;
+	}
+	.profil img {
+		width: 128px;
 	}
 }
